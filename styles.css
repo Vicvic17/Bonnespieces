@@ -46,18 +46,15 @@ main {
 	flex: 1;
 	margin: 8px;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 4px;
+	
 }
 .fiches article {
-	border: 1px solid black;
-	padding: 4px;
+	padding: 23px;
+	
 }
-.fiches article img {
+.fiches img {
 	display: block;
-	width: 5px;
-	height: 5px;
-	max-width: 2px;
+	max-width: 200px;
 }
 .fiches article p {
 	margin-top: 4px;
@@ -65,4 +62,5 @@ main {
 }
 .fiches article h2 {
 	text-align: center;
+	border-radius: 5px solid black;
 }
